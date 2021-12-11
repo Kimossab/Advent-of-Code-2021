@@ -1,6 +1,7 @@
 import prettyMilliseconds = require("pretty-ms");
 import { countIncreases, countIncreasesPart2 } from "./1";
 import { day10Part1, day10Part2 } from "./10";
+import { day11Part1, day11Part2 } from "./11";
 import { movePart1, movePart2 } from "./2";
 import { part1, part2 } from "./3";
 import { day4Part1, day4Part2 } from "./4";
@@ -99,3 +100,12 @@ start = +new Date();
 const d10p2 = day10Part2();
 end = +new Date();
 console.log(`[${prettyMilliseconds(end - start)}][2021][Day 10][Part 2]: ${d10p2}`);
+
+start = +new Date();
+const d11p1 = day11Part1();
+end = +new Date();
+console.log(`[${prettyMilliseconds(end - start)}][2021][Day 11][Part 1]: ${d11p1}`);
+start = +new Date();
+const d11p2 = day11Part2();
+end = +new Date();
+console.log(`[${prettyMilliseconds(end - start)}][2021][Day 11][Part 2]: ${d11p2}`);
