@@ -25,8 +25,6 @@ const parseInput = (): Octopus[] => {
 
 const data = parseInput();
 
-console.log(data);
-
 const flash = (dataOcto: Octopus[]) => {
   dataOcto.forEach(o => {
     o.value++;
