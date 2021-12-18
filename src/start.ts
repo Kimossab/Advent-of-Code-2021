@@ -7,6 +7,7 @@ import { day13Part1, day13Part2 } from "./13";
 import { day14Part1, day14Part2 } from "./14";
 import { day15Part1, day15Part2 } from "./15";
 import { day16Part1, day16Part2 } from "./16";
+import { day17Part1, day17Part2 } from "./17";
 // import { movePart1, movePart2 } from "./2";
 // import { part1, part2 } from "./3";
 // import { day4Part1, day4Part2 } from "./4";
@@ -151,11 +152,20 @@ console.log(`[${prettyMilliseconds(end - start)}][2021][Day 1][Part 2]: ${d1p2}`
 // end = +new Date();
 // console.log(`[${prettyMilliseconds(end - start)}][2021][Day 15][Part 2]: ${d15p2}`);
 
+// start = +new Date();
+// const d16p1 = day16Part1();
+// end = +new Date();
+// console.log(`[${prettyMilliseconds(end - start)}][2021][Day 16][Part 1]: ${d16p1}`);
+// start = +new Date();
+// const d16p2 = day16Part2();
+// end = +new Date();
+// console.log(`[${prettyMilliseconds(end - start)}][2021][Day 16][Part 2]: ${d16p2}`);
+
 start = +new Date();
-const d16p1 = day16Part1();
+const d17p1 = day17Part1();
 end = +new Date();
-console.log(`[${prettyMilliseconds(end - start)}][2021][Day 16][Part 1]: ${d16p1}`);
+console.log(`[${prettyMilliseconds(end - start)}][2021][Day 17][Part 1]: ${d17p1}`);
 start = +new Date();
-const d16p2 = day16Part2();
+const d17p2 = day17Part2();
 end = +new Date();
-console.log(`[${prettyMilliseconds(end - start)}][2021][Day 16][Part 2]: ${d16p2}`);
+console.log(`[${prettyMilliseconds(end - start)}][2021][Day 17][Part 2]: ${d17p2}`);
