@@ -10,6 +10,8 @@ import { day16Part1, day16Part2 } from "./16";
 import { day17Part1, day17Part2 } from "./17";
 import { day18Part1, day18Part2 } from "./18";
 import { day19Part1, day19Part2 } from "./19";
+import { day20Part1, day20Part2 } from "./20";
+import { day21Part1, day21Part2 } from "./21";
 // import { movePart1, movePart2 } from "./2";
 // import { part1, part2 } from "./3";
 // import { day4Part1, day4Part2 } from "./4";
@@ -181,11 +183,29 @@ console.log(`[${prettyMilliseconds(end - start)}][2021][Day 1][Part 2]: ${d1p2}`
 // end = +new Date();
 // console.log(`[${prettyMilliseconds(end - start)}][2021][Day 18][Part 2]: ${d18p2}`);
 
+// start = +new Date();
+// const d19p1 = day19Part1();
+// end = +new Date();
+// console.log(`[${prettyMilliseconds(end - start)}][2021][Day 19][Part 1]: ${d19p1}`);
+// start = +new Date();
+// const d19p2 = day19Part2();
+// end = +new Date();
+// console.log(`[${prettyMilliseconds(end - start)}][2021][Day 19][Part 2]: ${d19p2}`);
+
+// start = +new Date();
+// const d20p1 = day20Part1();
+// end = +new Date();
+// console.log(`[${prettyMilliseconds(end - start)}][2021][Day 20][Part 1]: ${d20p1}`);
+// start = +new Date();
+// const d20p2 = day20Part2();
+// end = +new Date();
+// console.log(`[${prettyMilliseconds(end - start)}][2021][Day 20][Part 2]: ${d20p2}`);
+
 start = +new Date();
-const d19p1 = day19Part1();
+const d21p1 = day21Part1();
 end = +new Date();
-console.log(`[${prettyMilliseconds(end - start)}][2021][Day 19][Part 1]: ${d19p1}`);
+console.log(`[${prettyMilliseconds(end - start)}][2021][Day 21][Part 1]: ${d21p1}`);
 start = +new Date();
-const d19p2 = day19Part2();
+const d21p2 = day21Part2();
 end = +new Date();
-console.log(`[${prettyMilliseconds(end - start)}][2021][Day 19][Part 2]: ${d19p2}`);
+console.log(`[${prettyMilliseconds(end - start)}][2021][Day 21][Part 2]: ${d21p2}`);
