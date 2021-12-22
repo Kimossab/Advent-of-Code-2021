@@ -26,3 +26,5 @@ npm run build
 
 Also needless to say you can use `yarn` instead of `npm` if that's what you fancy, but you might want to delete `package-lock.json` first.
 
+
+###### Disclaimer: I'm only writting this so the code page is not completely empty, this makes it more pleasing even if it's completely useless otherwise. ~~not like anyone is reading this anyway, but if you are have a nice day~~
