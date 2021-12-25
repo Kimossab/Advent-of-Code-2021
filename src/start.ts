@@ -15,6 +15,7 @@ import { day21Part1, day21Part2 } from "./21";
 import { day22Part1, day22Part2 } from "./22";
 import { solution } from "./22-sol";
 import { day23Part1, day23Part2 } from "./23";
+import { day24Part1, day24Part2 } from "./24";
 // import { movePart1, movePart2 } from "./2";
 // import { part1, part2 } from "./3";
 // import { day4Part1, day4Part2 } from "./4";
@@ -222,11 +223,20 @@ console.log(`[${prettyMilliseconds(end - start)}][2021][Day 1][Part 2]: ${d1p2}`
 // end = +new Date();
 // console.log(`[${prettyMilliseconds(end - start)}][2021][Day 22][Part 2]: ${d22p2}`);
 
+// start = +new Date();
+// const d23p1 = day23Part1();
+// end = +new Date();
+// console.log(`[${prettyMilliseconds(end - start)}][2021][Day 23][Part 1]: ${d23p1}`);
+// start = +new Date();
+// const d23p2 = day23Part2();
+// end = +new Date();
+// console.log(`[${prettyMilliseconds(end - start)}][2021][Day 23][Part 2]: ${d23p2}`);
+
 start = +new Date();
-const d23p1 = day23Part1();
+const d24p1 = day24Part1();
 end = +new Date();
-console.log(`[${prettyMilliseconds(end - start)}][2021][Day 23][Part 1]: ${d23p1}`);
+console.log(`[${prettyMilliseconds(end - start)}][2021][Day 24][Part 1]: ${d24p1}`);
 start = +new Date();
-const d23p2 = day23Part2();
+const d24p2 = day24Part2();
 end = +new Date();
-console.log(`[${prettyMilliseconds(end - start)}][2021][Day 23][Part 2]: ${d23p2}`);
+console.log(`[${prettyMilliseconds(end - start)}][2021][Day 24][Part 2]: ${d24p2}`);
