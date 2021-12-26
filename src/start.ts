@@ -13,9 +13,9 @@ import { day19Part1, day19Part2 } from "./19";
 import { day20Part1, day20Part2 } from "./20";
 import { day21Part1, day21Part2 } from "./21";
 import { day22Part1, day22Part2 } from "./22";
-import { solution } from "./22-sol";
 import { day23Part1, day23Part2 } from "./23";
 import { day24Part1, day24Part2 } from "./24";
+import { day25Part1, day25Part2 } from "./25";
 // import { movePart1, movePart2 } from "./2";
 // import { part1, part2 } from "./3";
 // import { day4Part1, day4Part2 } from "./4";
@@ -26,13 +26,13 @@ import { day24Part1, day24Part2 } from "./24";
 // import { day9Part1, day9Part2 } from "./9";
 
 let start = +new Date();
-const d1p1 = countIncreases();
+// const d1p1 = countIncreases();
 let end = +new Date();
-console.log(`[${prettyMilliseconds(end - start)}][2021][Day 1][Part 1]: ${d1p1}`);
-start = +new Date();
-const d1p2 = countIncreasesPart2();
-end = +new Date();
-console.log(`[${prettyMilliseconds(end - start)}][2021][Day 1][Part 2]: ${d1p2}`);
+// console.log(`[${prettyMilliseconds(end - start)}][2021][Day 1][Part 1]: ${d1p1}`);
+// start = +new Date();
+// const d1p2 = countIncreasesPart2();
+// end = +new Date();
+// console.log(`[${prettyMilliseconds(end - start)}][2021][Day 1][Part 2]: ${d1p2}`);
 
 // start = +new Date();
 // const d2p1 = movePart1();
@@ -232,11 +232,20 @@ console.log(`[${prettyMilliseconds(end - start)}][2021][Day 1][Part 2]: ${d1p2}`
 // end = +new Date();
 // console.log(`[${prettyMilliseconds(end - start)}][2021][Day 23][Part 2]: ${d23p2}`);
 
+// start = +new Date();
+// const d24p1 = day24Part1();
+// end = +new Date();
+// console.log(`[${prettyMilliseconds(end - start)}][2021][Day 24][Part 1]: ${d24p1}`);
+// start = +new Date();
+// const d24p2 = day24Part2();
+// end = +new Date();
+// console.log(`[${prettyMilliseconds(end - start)}][2021][Day 24][Part 2]: ${d24p2}`);
+
 start = +new Date();
-const d24p1 = day24Part1();
+const d25p1 = day25Part1();
 end = +new Date();
-console.log(`[${prettyMilliseconds(end - start)}][2021][Day 24][Part 1]: ${d24p1}`);
+console.log(`[${prettyMilliseconds(end - start)}][2021][Day 25][Part 1]: ${d25p1}`);
 start = +new Date();
-const d24p2 = day24Part2();
+const d25p2 = day25Part2();
 end = +new Date();
-console.log(`[${prettyMilliseconds(end - start)}][2021][Day 24][Part 2]: ${d24p2}`);
+console.log(`[${prettyMilliseconds(end - start)}][2021][Day 25][Part 2]: ${d25p2}`);
