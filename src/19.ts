@@ -276,9 +276,8 @@ const getPointsAndPositions = (): { scanners: Record<number, Position>; points: 
   };
 };
 
-const data = getPointsAndPositions();
-
 export const day19Part1 = () => {
+  const data = getPointsAndPositions();
   return data.points.length;
 };
 
@@ -294,5 +293,6 @@ const getMaxManhattanDistance = (points: Position[]) => {
 };
 
 export const day19Part2 = () => {
+  const data = getPointsAndPositions();
   return getMaxManhattanDistance(Object.values(data.scanners));
 };
