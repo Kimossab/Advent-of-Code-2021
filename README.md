@@ -30,6 +30,7 @@ Also needless to say you can use `yarn` instead of `npm` if that's what you fanc
 <details open>
   <summary>All the puzzle results</summary>
   <p>
+    
 ```
 [0ms][2021][Day 1][Part 1]: 1532
 [4ms][2021][Day 1][Part 2]: 1571
@@ -94,6 +95,7 @@ Also needless to say you can use `yarn` instead of `npm` if that's what you fanc
 <details>
   <summary>My personal stats</summary>
   <p>
+    
 ```
       --------Part 1--------   --------Part 2--------
 Day       Time   Rank  Score       Time   Rank  Score
