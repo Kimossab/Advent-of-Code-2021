@@ -93,5 +93,5 @@ export const day14Part2 = () => {
 
   const value = Math.max(...Object.values(count)) - Math.min(...Object.values(count));
 
-  return `${value} = ${value === 2158894777814}`;
+  return value;
 };
